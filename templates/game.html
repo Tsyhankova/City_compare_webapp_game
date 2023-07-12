@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>City Population Comparison Game</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Compare cities:</h1>
+    <form method="POST" action="/">
+        <h2>A: {{ city_a }} in {{ country_a }}</h2>
+        <h2>B: {{ city_b }} in {{ country_b }}</h2>
+        <h3>Score: {{ score }}</h3>
+        <input type="hidden" name="score" value="{{ score }}">
+        <input type="hidden" name="continuation" value="y">
+        <input type="hidden" name="a" value="{{ a }}">
+        <input type="hidden" name="b" value="{{ b }}">
+        <input type="submit" name="choice" value="A">
+        <input type="submit" name="choice" value="B">
+        <br>
+        <br>
+        <input type="submit" name="continuation" value="Stop" formaction="/stop">
+    </form>
+    {% if result %}
+        <h3 class="result">{{ result }}</h3>
+    {% endif %}
+</body>
+</html>

@@ -1,0 +1,42 @@
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    color: #333333;
+    margin-top: 50px;
+}
+
+h2 {
+    color: #555555;
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: #777777;
+    margin-top: 30px;
+}
+
+form {
+    margin-top: 30px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.result {
+    color: #FF0000;
+    margin-top: 20px;
+}
