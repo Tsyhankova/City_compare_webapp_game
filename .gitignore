@@ -8,6 +8,7 @@ lib/
 *.pyc
 *.pyo
 *.pyd
-__pycache__/
 pyvenv.sfg
+__pycache__/
+
 
