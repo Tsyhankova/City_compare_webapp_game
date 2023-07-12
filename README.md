@@ -15,7 +15,7 @@ To run the City Population Comparison Game locally, follow these steps:
 1. Clone the repository:
 
 ```sh
-git clone [https://github.com/Tsyhankova/City_compare_webapp_game.git](https://github.com/Tsyhankova/City_compare_webapp_game.git)
+git clone https://github.com/Tsyhankova/City_compare_webapp_game.git
 ```
 2. Change into the project directory:
 ```sh
